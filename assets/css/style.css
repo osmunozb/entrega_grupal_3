@@ -1,0 +1,47 @@
+.menu {
+    background-color: blue;
+}
+
+.menu a {
+    color: white;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.856);
+    color: white;
+    padding: 20px;
+}
+
+.empresa {
+    text-align: center
+}
+
+/* Celular */
+@media (max-width: 576px) {
+    .galeria {
+        display: none;
+    }
+
+    img {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 577px) {
+    .galeria {
+        display: block;
+    }
+
+    img {
+        width: 100%;
+
+    }
+}
+
+/* MediaQuery - Desktop */
+@media screen and (min-width: 1024px) {
+    img {
+        width: 45%;
+    }
+}
